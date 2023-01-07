@@ -5,6 +5,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   max-width: 800px;
   margin: auto;
+  height: 100%;
 }
 
 a {
@@ -16,6 +17,11 @@ a {
   box-sizing: border-box;
 }
 
-.title-homepage {
-  color: red;
+#__next {
+  height: 100%;
+}
+
+.title-not-found {
+  color: darkgray;
+  text-align: center;
 }
