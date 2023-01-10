@@ -12,10 +12,10 @@ export default function Users(props: UsersProps) {
   return (
     <Layout pageTitle="Users Page">
       {dataUsers.map((user) => (
-        <>
-          <p key={user.id}>{user.name}</p>
-          <p key={user.email}>{user.email}</p>
-        </>
+        <div key={user.id}>
+          <p>{user.name}</p>
+          <p>{user.email}</p>
+        </div>
       ))}
     </Layout>
   );
