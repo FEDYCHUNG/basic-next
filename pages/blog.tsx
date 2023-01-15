@@ -21,7 +21,6 @@ export default function Blog(props: Blogprops) {
           <p>{blog.body}</p>
         </div>
       ))}
-      <p>Blog page</p>
     </Layout>
   );
 }
